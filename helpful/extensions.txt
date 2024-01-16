@@ -1,15 +1,20 @@
-python extensions pack
-code runner
-    in settings->code runner:
-        save file before run
-        clear previous output
-        show execution message
-autopep8
-    in settings:
-        Format On Save
-    ctrl+shift+P
-    pip install -U autopep8
-    format document with-> set default-> autopep8
-python
-bluloco
-material icon theme
+Packages: 
+    python extensions pack
+    code runner
+        in settings->code runner:
+            save file before run
+            clear previous output
+            show execution message
+    autopep8
+        in settings:
+            Format On Save
+        ctrl+shift+P
+        pip install -U autopep8
+        format document with-> set default-> autopep8
+    python
+    bluloco
+    material icon theme
+Setting VS:
+    Tab Size 4
+    Font Size 8
+    Wheel -> Mouse Wheel Zoom
