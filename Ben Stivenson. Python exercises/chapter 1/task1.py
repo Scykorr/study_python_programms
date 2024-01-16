@@ -1,2 +1,2 @@
-"""Print Your name and address"""
-print('Anton\nBulvar Molodezi d.10, kv. 108')
+"""Упражнение 1. Почтовый адрес"""
+print('Антон\nБульвар Молодежи д.4, кв. 108')

@@ -1,3 +1,3 @@
-""" Приветствие"""
-user_name = input('Enter your name: ')
-print(f'Hello, {user_name}!')
+"""Упражнение 2. Приветствие"""
+user_name = input('Введите своё имя: ')
+print(f'Здравствуйте, {user_name}!')
