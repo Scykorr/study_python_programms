@@ -1,2 +1,3 @@
-print('hello', 'world')
-a = 1
+""" Приветствие"""
+user_name = input('Enter your name: ')
+print(f'Hello, {user_name}!')
