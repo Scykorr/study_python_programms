@@ -1,0 +1,12 @@
+venv\Scripts\activate
+django-admin startproject project_name
+in manage.py "os.environ.setdefault('DJANGO_SETTINGS_MODULE', '{{project_name}}.settings')" add {{}} where project_name is
+SECRET_KEY = '{{secret_key}}'
+cd .\project_name\
+django-admin startapp newapplication
+
+# create project from template
+django-admin startproject --template=project_name tutorial
+
+# create application from template
+change 'application_name' on 'app_name'
