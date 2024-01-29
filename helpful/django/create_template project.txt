@@ -10,3 +10,18 @@ django-admin startproject --template=project_name tutorial
 
 # create application from template
 change 'application_name' on 'app_name'
+
+
+# basic commands
+python manage.py createsuperuser
+python manage.py changepassword <имя пользователя>
+python manage.py makemigrations [<имя приложения>]  — создание миграций (обратите внимание, 
+        что имя приложения — параметр необязательный, если его указать, то создаются только миграции для конкретного приложения)
+python manage.py migrate — применить созданные миграции, т.е. внести изменения уже именно в саму базу данных
+         (создать новые или редактировать старые модели).
+python manage.py showmigrations — показать все изменения вносимые в базу данных.
+python manage.py dumpdata --format=json > mydata.json - выгрузка все записи БД в JSON файл
+python manage.py dumpdata --format=xml > mydata.xml
+python manage.py loaddata mydata.json
+python manage.py dumpdata --format=xml sample_app > sampledata.xml 
+python manage.py flush - полная очистка базы данных, т. е. удаление всех данных из таблиц в ней.
