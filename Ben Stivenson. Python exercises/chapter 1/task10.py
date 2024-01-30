@@ -1,5 +1,5 @@
 """Упражнение 10. Арифметика"""
-from math import log10, pow
+from math import log10
 num_a = int(input('Введите целое число a: '))
 num_b = int(input('Введите целое число b: '))
 print(f'Сумма: {num_a + num_b}')
