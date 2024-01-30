@@ -1,0 +1,2 @@
+# create empty file
+type nul > hello.txt
