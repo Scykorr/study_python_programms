@@ -5,3 +5,4 @@ git push origin master
 git push origin HEAD *HEAD указывает на текущую ветку (current branch)*
 git checkout branch_name
 git pull
+# delete commit
