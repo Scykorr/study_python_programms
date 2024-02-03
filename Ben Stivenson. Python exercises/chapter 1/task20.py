@@ -1,6 +1,6 @@
 """Упражнение 20. Уравнение состояния идеального газа"""
 from typing import Final
-def main(inp_P, inp_V, const_R, inp_T):
+def main(inp_P: float, inp_V: float, const_R: float, inp_T: float) -> None:
     result_n = round((inp_P * inp_V) / (const_R * inp_T), 3)
     print(f'Количество вещества: {result_n} моль') 
 
