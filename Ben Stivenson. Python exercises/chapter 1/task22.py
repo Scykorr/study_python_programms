@@ -2,7 +2,7 @@
 from math import sqrt
 
 
-def calc_sqr_triangle(first_side: float, second_side: float, third_side: float):
+def calc_sqr_triangle(first_side: float, second_side: float, third_side: float) -> None:
     half_perimetr = (first_side + second_side + third_side) / 2
     print(f'Площадь треугольника: {sqrt(half_perimetr * (half_perimetr - first_side)*(
         half_perimetr - second_side)*(half_perimetr - third_side))}')
