@@ -3,4 +3,4 @@ pip install pipreqs
 pipreqs .
 
 # or
-pip freeze
+pip freeze > requirements.txt
