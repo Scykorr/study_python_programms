@@ -33,4 +33,3 @@ print('slope:', model.coef_)
 
 y_pred = model.predict(x)
 print('predicted response:', y_pred, sep='\n')
-
