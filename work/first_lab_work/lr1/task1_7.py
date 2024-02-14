@@ -1,12 +1,29 @@
-from sympy import Eq, symbols, solve
+# from sympy import Eq, symbols, solve
 
-x, y = symbols("x y")
+# x, y = symbols("x y")
 
-eq1 = Eq(5 * pow(x, 2) + 6 * pow(y, 2), 3)
-eq2 = Eq(7 * x + 3 * y, 1)
+# eq1 = Eq(5 * pow(x, 2) + 6 * pow(y, 2), 3)
+# eq2 = Eq(7 * x + 3 * y, 1)
 
-solution = solve((eq1, eq2), (x, y))
-print(solution)
+# solution = solve((eq1, eq2), (x, y))
+# print(solution)
+
+import numpy as np
+import matplotlib.pyplot as plt
+plt.title(r'$Задание 1.7$')
+# set axis limits of plot (x=0 to 20, y=0 to 20)
+plt.axis([-5, 10, -5, 10])
+
+# create circle with (x, y) coordinates at (10, 10)
+c = plt.Circle((0, 0))
+
+# add circle to plot (gca means "get current axis")
+plt.gca().add_artist(c)
+plt.grid(True)
+plt.xlabel(r'$x$')
+plt.ylabel(r'$g$')
+plt.show()
+
 
 # import numpy as np
 # from scipy.optimize import fsolve
