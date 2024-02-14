@@ -1,5 +1,4 @@
 import numpy as np
-from math import sqrt
 import matplotlib.pyplot as plt
 plt.title(r'$Задание 1.1. График: g = 3sin(x) - cos^2x. x<=0; 3*sqrt(1+x^2), x>0$')
 x = np.linspace(-2, 0, 200)
