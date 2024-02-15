@@ -7,7 +7,7 @@ x1 = np.linspace(0, 2, 200)
 g1 = 3 * np.sqrt(1 + x1**2)
 x2 = [0, 0]
 y2 = [(3 * np.sin(0) - pow(np.cos(0), 2)), (3 * np.sqrt(1 + 0**2))]
-plt.plot(x, g, x1, g1, x2, y2)
+plt.plot(x, g, 'b', x1, g1, 'b', x2, y2, 'b',)
 plt.grid(True)
 plt.xlabel(r'$x$')
 plt.ylabel(r'$g$')

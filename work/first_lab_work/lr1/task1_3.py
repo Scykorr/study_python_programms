@@ -9,4 +9,5 @@ X, Y = np.meshgrid(X, Y)
 Z = 3 * pow(X, 2) - 2 * pow(Y, 2)
 
 ax.plot_surface(X, Y, Z)
+plt.title('Задание 1.3')
 plt.show()

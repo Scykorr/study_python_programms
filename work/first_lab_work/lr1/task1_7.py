@@ -1,4 +1,7 @@
 from sympy import Eq, symbols, solve
+import numpy as np
+from matplotlib import pyplot as plt
+from math import pi
 
 x, y = symbols("x y")
 
@@ -7,13 +10,6 @@ eq2 = Eq(7 * x + 3 * y, 1)
 
 solution = solve((eq1, eq2), (x, y))
 print(solution)
-
-
-
-# set axis limits of plot (x=0 to 20, y=0 to 20)
-import numpy as np
-from matplotlib import pyplot as plt
-from math import pi
 
 
 u=0     #x-position of the center
