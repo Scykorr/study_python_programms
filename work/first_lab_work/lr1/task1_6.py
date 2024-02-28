@@ -31,3 +31,5 @@ print('коэффициент регрессии b1:', model.coef_)
 
 y_pred = model.predict(x)
 print('прогнозируемые значения:', y_pred, sep='\n')
+
+input("\nДля завершения, нажмите клавишу 'Enter'")
