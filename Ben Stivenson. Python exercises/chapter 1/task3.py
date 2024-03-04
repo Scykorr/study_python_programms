@@ -1,4 +1,6 @@
 """Упражнение 3.Площадь комнаты"""
+
+
 def count_sqr(room_length: float, room_width: float) -> None:
     print(f'Площадь комнаты: {room_length * room_width} квадратных метров')
 

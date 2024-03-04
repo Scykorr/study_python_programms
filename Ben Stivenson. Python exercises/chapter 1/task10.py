@@ -1,6 +1,7 @@
 """Упражнение 10. Арифметика"""
 from math import log10
 
+
 def simple_operations(num_a: int, num_b: int) -> None:
     print(f'Сумма: {num_a + num_b}')
     print(f'Разность: {num_a - num_b}')

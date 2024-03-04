@@ -1,6 +1,7 @@
 """Упражнение 17. Теплоемкость"""
 from typing import Final
 
+
 def calc_heat_capacity(inp_weight: float, inp_delta_temp: float) -> None:
     heat_capacity: Final = 4.186
     req_energy = inp_weight * heat_capacity * inp_delta_temp

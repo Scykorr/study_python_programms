@@ -1,8 +1,10 @@
 """Упражнение 18. Объем цилиндра"""
 from math import pi
 
+
 def calc_cylinder_volume(inp_radius: float, inp_height: float) -> None:
-    print(f'Площадь цилиндра: {round(pi * pow(inp_radius, 2) * inp_height, 1)}')
+    print(
+        f'Площадь цилиндра: {round(pi * pow(inp_radius, 2) * inp_height, 1)}')
 
 
 if __name__ == '__main__':

@@ -6,3 +6,9 @@ git push origin HEAD *HEAD указывает на текущую ветку (cu
 git checkout branch_name
 git pull
 # delete commit
+
+# config git in terminal
+git config --list
+git config --global user.name "Tony Fedos"
+git config --global user.email "fedosov-toxa@mail.ru
+git config --list

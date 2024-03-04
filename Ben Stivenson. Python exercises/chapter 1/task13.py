@@ -1,5 +1,6 @@
 """Упражнение 13. Размен"""
 
+
 def exchange_coins(change_sum):
     coins = []
     coins.append(('toonie', change_sum // 200))
