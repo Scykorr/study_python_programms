@@ -3,7 +3,7 @@
 # You may need to run `sudo apt-get install python3-venv` first on Debian-based OSs
 python3 -m venv env
 # activate 
-.venv~/bin/python3
+. env/bin/activate
 
 # Windows
 # You can also use `py -3 -m venv .venv`
