@@ -12,4 +12,4 @@ if __name__ == '__main__':
     nums_list = []
     for el in range(1, 4):
         nums_list.append(int(input(f'Введите число №{el}: ')))
-    get_filter_list(nums_list)
+    get_filter_list(inp_list=nums_list)
