@@ -1,0 +1,5 @@
+inp_num_list = list(map(int, input().split()))
+inp_num_list.sort(reverse=False)
+print(*inp_num_list)
+inp_num_list.sort(reverse=True)
+print(*inp_num_list)
