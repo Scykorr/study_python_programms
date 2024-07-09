@@ -1,0 +1,3 @@
+palindromes = None
+
+print(palindromes)
