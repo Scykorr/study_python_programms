@@ -1,11 +1,2 @@
-palindromes = None
-
+palindromes = [x for x in range(100, 1001) if str(x) == str(x)[::-1]]
 print(palindromes)
-
-"""
-X = 121
-if str(X) == str(X)[::-1]:
-    print("Это палиндром")
-else:
-    print("Это не палиндром")
-"""
