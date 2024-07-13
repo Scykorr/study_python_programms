@@ -35,8 +35,16 @@ def cesar_cipher(string, direction, step, language):
 #     input_lang = english_letters
 #     print(cesar_cipher(string=inp_string, direction=inp_direction, step=inp_step, language=input_lang))
 
-inp_string = input('Введите текст: ')
+inp_string = input()
 inp_lang = english_letters
+result_list = list()
 for el in inp_string.split():
-    inp_step = len(el)
+    counter_step = 0
+    for letter in el:
+        if letter.isalpha():
+            counter_step += 1
+
+    new_word = cesar_cipher(string=el, direction='+', step=counter_step, language=inp_lang)
+    result_list.append(new_word)
+print(*result_list)
 
