@@ -1,0 +1,7 @@
+inp_num = int(input())
+bin_num = bin(inp_num)
+oct_num = oct(inp_num)
+hex_num = hex(inp_num)
+print(bin_num[2:])
+print(oct_num[2:])
+print(hex_num[2:].upper())
