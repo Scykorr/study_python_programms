@@ -6,7 +6,7 @@ check_list = list(set(check_list))
 check_list.remove(' ')
 check_list.sort()
 for el in check_list:
-    print(*total_list, el)
-    for el_2 in total_list:
-        if el_2 == el:
-            total_list.remove(el)
+    print(*total_list, sep='', end=' ')
+    print(el)
+    for _ in range(total_list.count(el)):
+        total_list.remove(el)
