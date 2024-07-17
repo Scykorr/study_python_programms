@@ -6,7 +6,8 @@ check_list = list(set(check_list))
 check_list.remove(' ')
 check_list.sort()
 for el in check_list:
-    print(*total_list, sep='', end=' ')
+    new_str = ''.join(total_list).split()
+    print(*new_str, end=' ')
     print(el)
     for _ in range(total_list.count(el)):
         total_list.remove(el)
