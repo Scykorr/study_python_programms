@@ -1,7 +1,7 @@
 "Упражнение 36. Собачий возраст"
 
 
-def count_dog_age(people_age):
+def count_dog_age(people_age) -> str:
     dog_age = 0
     if people_age < 0:
         return "Вы ввели отрицательное число"
@@ -14,5 +14,6 @@ def count_dog_age(people_age):
 
 
 if __name__ == '__main__':
-    res_dog_age = count_dog_age(5)
+    inp_people_age = int(input('Ввведите возраст человека для перевода в возраст собаки: '))
+    res_dog_age = count_dog_age(inp_people_age)
     print('Возраст собаки в расчете на человеческие года:', res_dog_age)

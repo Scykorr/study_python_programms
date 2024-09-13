@@ -1,7 +1,7 @@
 "Упражнение 37. Гласные и согласные"
 
 
-def check_letter(letter):
+def check_letter(letter) -> None:
     letter = letter.lower()
     list_of_gl = ['a', 'e', 'i', 'o', 'u']
     if letter in list_of_gl:
@@ -13,4 +13,5 @@ def check_letter(letter):
 
 
 if __name__ == '__main__':
-    check_letter('a')
+    inp_letter = input('Введите букву латинского алфавита: ')
+    check_letter(inp_letter)
