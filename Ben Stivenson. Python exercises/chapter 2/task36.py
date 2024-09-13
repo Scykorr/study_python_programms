@@ -1,5 +1,6 @@
 "Упражнение 36. Собачий возраст"
 
+
 def count_dog_age(people_age):
     dog_age = 0
     if people_age < 0:
@@ -11,5 +12,7 @@ def count_dog_age(people_age):
             dog_age += 4
     return dog_age
 
-res_dog_age = count_dog_age(5)
-print('Возраст собаки в расчете на человеческие года:', res_dog_age)
+
+if __name__ == '__main__':
+    res_dog_age = count_dog_age(5)
+    print('Возраст собаки в расчете на человеческие года:', res_dog_age)
