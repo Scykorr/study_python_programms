@@ -7,6 +7,7 @@ def input_values():
     side_c = int(input('Введите третью сторону треугольника: '))
     return side_a, side_b, side_c
 
+
 def main():
     first_side, second_side, third_side = input_values()
     if first_side == second_side == third_side:
@@ -15,6 +16,7 @@ def main():
         print('Треугольник разносторонный')
     else:
         print('Треугольник равнобедренный.')
+
 
 if __name__ == '__main__':
     main()
