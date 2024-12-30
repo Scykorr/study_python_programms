@@ -5,7 +5,7 @@ def main():
     sound = input_sound()
     letter = sound[0].lower()
     value = int(sound[1])
-    if letter == 'c':
+    if letter == 'с':
         print('Частота:', round(16.35 * (2 ** value), 2))
     elif letter == 'd':
         print('Частота:', round(18.35 * (2 ** value), 2))
